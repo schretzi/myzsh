@@ -114,3 +114,4 @@ alias k="kubectl"
 complete -F __start_kubectl k
 alias ktx=kubectx
 alias kns=kubens
+alias ka='f(){ kubectl "$@" --all-namespaces -o wide;  unset -f f; }; f'
