@@ -9,3 +9,9 @@ sh -c '$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sudo apt install fonts-powerline
 
 curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
+
+
+It might not be the correct place, but lets add some k8s tools here too.
+
+https://itnext.io/kubernetes-command-line-tools-acad11683794
+
