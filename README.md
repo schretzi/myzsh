@@ -23,7 +23,7 @@ It might not be the correct place, but lets add some k8s tools here too.
 
 https://itnext.io/kubernetes-command-line-tools-acad11683794
 https://github.com/ahmetb/kubectx#installation
-
+```
 cd /tmp
 git clone https://github.com/ahmetb/kubectx
 cd kubectx
@@ -34,5 +34,5 @@ mkdir -p ~/.oh-my-zsh/completions
 chmod -R 755 ~/.oh-my-zsh/completions
 ln -s /opt/kubectx/completion/kubectx.zsh ~/.oh-my-zsh/completions/_kubectx.zsh
 ln -s /opt/kubectx/completion/kubens.zsh ~/.oh-my-zsh/completions/_kubens.zsh
-
+```
 
